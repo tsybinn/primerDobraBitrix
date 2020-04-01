@@ -1,0 +1,43 @@
+# Created by https://www.gitignore.io/api/1c-bitrix,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=1c-bitrix,visualstudiocode
+
+### 1C-Bitrix ###
+# core
+/bitrix/
+
+# uploaded files
+/upload/
+
+# other files
+test.php
+
+*.zip
+*.htaccess
+*.gzip
+*.gz
+*.tgz
+*.tar
+*.gz.[0-9]
+*.sql
+*.log
+*.mp3
+*.exe
+*.db
+*.csv
+*.xml
+*.psd
+*.[oa]
+*~
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+# End of https://www.gitignore.io/api/1c-bitrix,visualstudiocode
